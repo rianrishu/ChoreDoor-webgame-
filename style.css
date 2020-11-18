@@ -11,6 +11,27 @@ body {
     margin-bottom: 21px;
     text-align: center;
   }
+  .sign_button_div{
+    display: flex;
+    padding: 5px;
+    justify-content: flex-end;
+  }
+  #sign_button{
+    margin: auto;
+    width: 120px;
+    height: 43px;
+    font-family: 'Work Sans';
+    background-color: #eb6536;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-bottom: 21px;
+    cursor: pointer;
+  }
+  #sign_button:hover{
+    background-color: greenyellow;
+  }
   .instructions-title{
     display: inline;
     font-size: 18px;
@@ -45,6 +66,7 @@ body {
     width: 120px;
     height: 43px;
     font-family: 'Work Sans';
+    border-radius: 35px;
     background-color: #eb6536;
     padding-top: 18px;
     font-size: 18px;
@@ -52,4 +74,7 @@ body {
     color: #010165;
     margin-bottom: 21px;
     cursor: pointer;
+  }
+  .start-row:hover{
+    background-color: greenyellow;
   }
